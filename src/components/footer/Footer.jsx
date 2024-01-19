@@ -3,9 +3,9 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
-    <div style={styles.contianer}>
-      <div style={styles.loge}>Laradev</div>
-      <div style={styles.text}>
+    <div className={styles.contianer}>
+      <div className={styles.logo}>Laradev</div>
+      <div className={styles.text}>
         Lana creative thoughts agency @All rights reserved
       </div>
     </div>

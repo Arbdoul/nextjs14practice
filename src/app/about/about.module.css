@@ -1,4 +1,44 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .imgContainer{
-    position: absolute;
+    flex: 1;
+    position: relative;
    
 }
+
+.subtitle{
+    color: var(--btn);
+}
+.title{
+    font-size: 34px;
+
+}
+
+.desc{
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box h1{
+   color: var(--btn); 
+}
+.img{
+    object-fit: contain;
+}
+
+

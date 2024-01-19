@@ -5,6 +5,7 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "image.pexels.com",
+        hostname: "pexels.com",
       },
     ],
   },
