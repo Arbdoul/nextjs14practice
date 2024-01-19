@@ -1,0 +1,7 @@
+.contianer{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    color: gray;
+}
